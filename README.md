@@ -14,7 +14,7 @@ Google was released ViewPager2 at February, 2nd 2019 with alpha version, ViewPag
  * etc
 
 ## Screenshot
-![alt text](https://raw.githubusercontent.com/rizqiaryansa/MyViewPager2/master/app/images/sampleviewpager2.png?token=AGAKLPGAUGRQCM3GFQHICUC5HR6Z6)
+![alt text](https://raw.githubusercontent.com/rizqiaryansa/MyViewPager2/master/app/images/sampleviewpager2.png)
 
 ## References
 
