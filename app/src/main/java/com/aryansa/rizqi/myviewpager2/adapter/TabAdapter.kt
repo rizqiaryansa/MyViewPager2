@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.aryansa.rizqi.myviewpager2.viewmodel.ItemTabViewModel
 import com.aryansa.rizqi.myviewpager2.R
 
-class TabAdapter(private val context: Context, private var viewModel: ItemTabViewModel) : RecyclerView.Adapter<TabAdapter.TabViewHolder>() {
+class TabAdapter(private val context: Context, private val viewModel: ItemTabViewModel) : RecyclerView.Adapter<TabAdapter.TabViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, position: Int): TabViewHolder {
         val v = LayoutInflater.from(parent.context).inflate(
