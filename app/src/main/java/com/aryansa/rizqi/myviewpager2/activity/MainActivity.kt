@@ -1,11 +1,12 @@
 package com.aryansa.rizqi.myviewpager2.activity
 
+import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import androidx.activity.viewModels
 import androidx.viewpager2.widget.ViewPager2
-import androidx.viewpager2.widget.ViewPager2.ORIENTATION_HORIZONTAL
-import androidx.viewpager2.widget.ViewPager2.ORIENTATION_VERTICAL
+import androidx.viewpager2.widget.ViewPager2.*
 import com.aryansa.rizqi.myviewpager2.R
 import com.aryansa.rizqi.myviewpager2.adapter.TabAdapter
 import com.aryansa.rizqi.myviewpager2.viewmodel.ItemTabViewModel
@@ -31,6 +32,10 @@ class MainActivity : AppCompatActivity() {
         TabLayoutMediator(tabLayout, viewPager2) { tab, position ->
             tab.text = viewModel.items[position]
         }.attach()
+
+        if(Build.VERSION.SDK_INT > Build.VERSION_CODES.JELLY_BEAN) {
+            viewPager2.layoutDirection = View.LAYOUT_DIRECTION_RTL
+        }
 
         changeOrientation()
         addPage()
