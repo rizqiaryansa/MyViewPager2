@@ -35,6 +35,7 @@ class MainActivity : AppCompatActivity() {
 
         if(Build.VERSION.SDK_INT > Build.VERSION_CODES.JELLY_BEAN) {
             viewPager2.layoutDirection = View.LAYOUT_DIRECTION_RTL
+            viewPager2.currentItem = viewModel.size
         }
 
         changeOrientation()
