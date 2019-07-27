@@ -5,7 +5,7 @@ import androidx.lifecycle.ViewModel
 class ItemTabViewModel : ViewModel() {
 
     private var initValue = 1L
-    val items  = (1..9).map { longToItem(initValue++) }.toMutableList()
+    val items  = (1..10).map { longToItem(initValue++) }.toMutableList()
 
     fun getItemById(id: Long) : String = items.first{ itemToLong(it) == id}
     fun itemId(position: Int) : Long = itemToLong(items[position])
