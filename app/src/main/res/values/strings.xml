@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyViewPager2</string>
+    <string name="add_page">Add Page</string>
+    <string name="horizontal">Horizontal</string>
+    <string name="remove_page">Remove Page</string>
+    <string name="tab">Tab:</string>
+    <string name="vertical">Vertical</string>
+</resources>
