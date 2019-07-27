@@ -1,5 +1,5 @@
 # MyViewPager2
-This sample shows how to use ViewPager2 with RecyclerView and TabLayout (Mediator)
+This sample shows how to use ViewPager2 with RecyclerView and TabLayout (Mediator), for manage your own state saving by ViewModel
 
 ## Description
 Google was released ViewPager2 at February, 2nd 2019 with alpha version, ViewPager2 reduced more code boilerplate from 3169 lines of code to 583. As the former ViewPager, the newer ViewPager2 is generated from ViewGroup. There are few differences between them:
