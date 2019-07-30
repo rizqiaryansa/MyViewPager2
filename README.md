@@ -13,7 +13,7 @@ As the former ViewPager, the newer ViewPager2 is generated from ViewGroup. There
  * etc
 
 ## Screenshot
-![alt text](https://raw.githubusercontent.com/rizqiaryansa/MyViewPager2/master/app/images/sampleviewpager2.png?token=AGAKLPHAZQSTEYDP2CNQJ3K5HSE3W)
+![alt text](https://raw.githubusercontent.com/rizqiaryansa/MyViewPager2/master/app/images/sampleviewpager2.png?token=AGAKLPBTOXMTC64A7RNE2IS5IBZKG)
 
 ## References
 
