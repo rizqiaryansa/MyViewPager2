@@ -5,18 +5,15 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import androidx.activity.viewModels
-import androidx.viewpager2.widget.ViewPager2
 import androidx.viewpager2.widget.ViewPager2.*
 import com.aryansa.rizqi.myviewpager2.R
 import com.aryansa.rizqi.myviewpager2.adapter.TabAdapter
 import com.aryansa.rizqi.myviewpager2.viewmodel.ItemTabViewModel
-import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.control_layout.*
 
 class MainActivity : AppCompatActivity() {
-
 
     private var isHorizontal : Boolean = true
     private val viewModel : ItemTabViewModel by viewModels()
@@ -87,6 +84,7 @@ class MainActivity : AppCompatActivity() {
             viewPager2.apply {
                 currentItem = oldPosition - 1
                 adapter?.notifyDataSetChanged()
+
             }
         }
     }
