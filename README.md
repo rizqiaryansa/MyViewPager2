@@ -1,5 +1,5 @@
 # MyViewPager2
-This sample shows how to use ViewPager2 with RecyclerView and TabLayout (Mediator), for manage your own state saving by ViewModel
+This sample shows how to use ViewPager2 with RecyclerView and TabLayout (Mediator), for managing your own state saving by ViewModel
 
 ## Description
 As the former ViewPager, the newer ViewPager2 is generated from ViewGroup. There are few differences between them. Here's an image that depicts the ViewPager2:
@@ -8,7 +8,7 @@ As the former ViewPager, the newer ViewPager2 is generated from ViewGroup. There
 ## Advantages
  * Support RTL direction (Right to Left)
  * Support Adapter with RecyclerView
- * Support Orintation Horizontal/Veritcal
+ * Support Orintation Horizontal/Vertical
  * Support PageChangeCallback (More efficient code)
  * etc
 
